@@ -2,7 +2,7 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    // base:'/vitePress/',   //设定 public 根目录
+    base:'/vitePress/',   //设定 public 根目录
     //源目录位置   定义这个相当于以这个为根目录查找  默认根目录为docx
     srcDir:'src',
     //站点级选项
