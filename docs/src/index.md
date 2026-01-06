@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "My Awesome Project"
   text: "A VitePress Site"
-  tagline: My great project tagline
+  tagline: My great VitePress Site Test
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /example-2/markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /example-2/api-examples
+      text: Introduction
+      link: /introduction/vitePress
+#    - theme: alt
+#      text: API Examples
+#      link: /example-2/api-examples
 
 features:
   - title: Feature A
