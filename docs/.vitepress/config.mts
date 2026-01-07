@@ -10,7 +10,7 @@ export default defineConfig({
     //源目录位置   定义这个相当于以这个为根目录查找  默认根目录为docx
     srcDir:'src',
     //站点级选项
-    title: "My VitePress",
+    title: "我的VitePress",
     description: "A VitePress Site",
     //主题级选项
     themeConfig: {
