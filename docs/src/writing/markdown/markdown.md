@@ -2,8 +2,8 @@
 title: 第一页
 # 手动指定下一页的链接和文字
 prev:
-  text: 'Runtime API Examples'
-  link: '/introduction/routeSecond/api-examples'
+  text: '部署'
+  link: '/introduction/routeSecond/building'
 next:
   text: '资源处理'
   link: '/writing/markdown/resourceHandling'

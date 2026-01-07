@@ -8,11 +8,11 @@ hero:
   tagline: My great VitePress Site Test
   actions:
     - theme: brand
-      text: Introduction
+      text: 什么是VitePress?
       link: /introduction/vitePress
-#    - theme: alt
-#      text: API Examples
-#      link: /example-2/api-examples
+    - theme: alt
+      text: 快速开始
+      link: /introduction/routeSecond/gettingStart
 
 features:
   - title: Feature A
