@@ -56,7 +56,7 @@ $ npx vitepress init
 └  Done! Now run pnpm run docs:dev and start writing.
 ```
 
-### 文件结构
+## 文件结构
 如果正在构建一个独立的 VitePress 站点，可以在当前目录 (./) 中搭建站点。但是，如果在现有项目中与其他源代码一起安装 VitePress，建议将站点搭建在嵌套目录 (例如 `./docs`) 中，以便它与项目的其余部分分开。
 ```
 .
@@ -69,7 +69,7 @@ $ npx vitepress init
 └─ package.json
 ```
 
-### 配置文件
+## 配置文件
 配置文件 (`.vitepress/config.mts`) 让你能够自定义 VitePress 站点的各个方面，最基本的选项是站点的标题和描述：
 ::: code-group
 ```sh[📚.vitepress/config.mts]
@@ -86,14 +86,14 @@ export default {
 :::
 还可以通过 `themeConfig` 选项配置主题的行为。有关所有配置选项的完整详细信息
 
-### 源文件
+## 源文件
 `.vitepress` 目录之外的 Markdown 文件被视为源文件。
 
 VitePress 使用 基于文件的路由：每个 `.md` 文件将在相同的路径被编译成为 `.html` 文件。例如，`index.md` 将会被编译成 `index.html`，可以在生成的 VitePress 站点的根路径 `/` 进行访问。
 
 VitePress 还提供了生成简洁 URL、重写路径和动态生成页面的能力。这些将在[路由指南](/introduction/routeSecond/routing)中进行介绍。
 
-### 启动并运行
+## 启动并运行
 该工具还应该将以下 npm 脚本注入到 `package.json` 中：
 ::: code-group
 ```json[📚package.json]
